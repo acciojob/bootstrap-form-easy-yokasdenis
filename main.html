@@ -18,10 +18,11 @@
 
   <body>
     <!-- the entire body must be written by student -->
-    <form class="needs-validation" novalidate>
+    <form class="needs-validation"  id="form-label" novalidate>
+        <label for="form-label" class="form-label">Internship Form</label>
       <div class="form-row">
         <div class="col-4 mb-3">
-          <label for="first-name-input">First name</label>
+          <label for="first-name-input">First Name</label>
           <input
             type="text"
             class="first-name-input form-control"
@@ -32,23 +33,23 @@
           <div class="invalid-feedback">First name is required</div>
         </div>
         <div class="col-4 mb-3">
-          <label for="validationCustom02">Last name</label>
+          <label for="last-name-input">Last Name</label>
           <input
             type="text"
             class="last-name-input form-control"
-            id="validationCustom02"
-            placeholder="Last name"
+            id="last-name-input"
+            placeholder="Last Name"
             required
           />
-          <div class="invalid-feedback">Last name is required</div>
+          <div class="invalid-feedback">Last Name is required</div>
         </div>
         <div class="col-4 mb-3">
-          <label for="validationCustomEmail">Email</label>
+          <label for="email-inpu">Email</label>
           <div class="input-group">
             <input
               type="email"
               class="email-input form-control"
-              id="validationCustomEmail"
+              id="email-inpu"
               placeholder="xyz@abc.com"
               required
             />
@@ -57,11 +58,11 @@
       </div>
       <div class="form-row">
         <div class="col-6 mb-3">
-          <label for="validationCustom03">College</label>
+          <label for="college-input">College</label>
           <input
             type="text"
             class="college-input form-control"
-            id="validationCustom03"
+            id="college-input"
             required
           />
           <div class="invalid-feedback">Please provide a valid college.</div>
@@ -72,17 +73,17 @@
     <option value="choose...">choose...</option>
     <option value="2020">2020</option>
     <option value="2021">2021</option>
-    <option value="2021">2021</option>
+    <option value="2022">2021</option>
     <option value="2023">2023</option>
 </select>
 <div id="error" class="invalid-feedback d-block" >Please provide a valid Graduation Year.</div>
         </div>
         <div class="col-3 mb-3">
-          <label for="validationCustom05">Roll No.</label>
+          <label for="roll-no-input">Roll No.</label>
           <input
             type="number"
             class="roll-no-input form-control"
-            id="validationCustom05"
+            id="roll-no-input"
             required
           />
           <div class="invalid-feedback">Please provide a valid Roll no.</div>
@@ -94,10 +95,10 @@
             class="form-check-input conditions-checkbox "
             type="checkbox"
             value=""
-            id="invalidCheck"
+            id="conditions-checkbox "
             required
           />
-          <label  for="invalidCheck">
+          <label  for="conditions-checkbox ">
             Agree to terms and conditions
           </label>
           <div class="invalid-feedback">You must agree before submitting.</div>
