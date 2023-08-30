@@ -22,7 +22,7 @@
         <label for="form-label" class="form-label">Internship Form</label>
       <div class="form-row">
         <div class="col-4 mb-3">
-          <label for="first-name-input">First Name</label>
+          <label class="form-label for="first-name-input">First Name</label>
           <input
             type="text"
             class="first-name-input form-control"
@@ -33,7 +33,7 @@
           <div class="invalid-feedback">First name is required</div>
         </div>
         <div class="col-4 mb-3">
-          <label for="last-name-input">Last Name</label>
+          <label class="form-label for="last-name-input">Last Name</label>
           <input
             type="text"
             class="last-name-input form-control"
@@ -44,7 +44,7 @@
           <div class="invalid-feedback">Last Name is required</div>
         </div>
         <div class="col-4 mb-3">
-          <label for="email-input">Email</label>
+          <label class="form-label for="email-input">Email</label>
           <div class="input-group">
             <input
               type="email"
@@ -58,7 +58,7 @@
       </div>
       <div class="form-row">
         <div class="col-6 mb-3">
-          <label for="college-input">College</label>
+          <label class="form-label for="college-input">College</label>
           <input
             type="text"
             class="college-input form-control"
@@ -68,8 +68,8 @@
           <div class="invalid-feedback">Please provide a valid college.</div>
         </div>
         <div class="col-3 mb-3">
-          <label for="grad-year-select">Graduation Year</label>
-<select selected name="selectors" id="grad-year-select">
+          <label class="form-label for="grad-year-select">Graduation Year</label>
+<select selected name="selectors" id="grad-year-select" required >
     <option value="choose...">choose...</option>
     <option value="2020">2020</option>
     <option value="2021">2021</option>
@@ -79,7 +79,7 @@
 <div id="error" class="invalid-feedback d-block" >Please provide a valid Graduation Year.</div>
         </div>
         <div class="col-3 mb-3">
-          <label for="roll-no-input">Roll No.</label>
+          <label class="form-label for="roll-no-input">Roll No.</label>
           <input
             type="number"
             class="roll-no-input form-control"
@@ -98,7 +98,7 @@
             id="conditions-checkbox "
             required
           />
-          <label  for="conditions-checkbox ">
+          <label class="form-label  for="conditions-checkbox ">
             Agree to terms and conditions
           </label>
           <div class="invalid-feedback">You must agree before submitting.</div>
